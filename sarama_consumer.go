@@ -1,5 +1,5 @@
 // Package kafka_project
-// @author Daud Valentino
+// @author Daud Valentino <labsbrain@gmail.com>
 package main
 
 import (

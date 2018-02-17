@@ -1,5 +1,5 @@
 // Package main
-// @author Daud Valentino
+// @author Daud Valentino <labsbrain@gmail.com>
 package main
 
 import (
@@ -13,7 +13,7 @@ import (
 func main() {
 
 	broker := "localhost:9092"
-	group := "biller_narindo"
+	group := "test1"
 	topics := []string{"tester"}
 	sigchan := make(chan os.Signal, 1)
 	signal.Notify(sigchan, syscall.SIGINT, syscall.SIGTERM)
